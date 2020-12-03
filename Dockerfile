@@ -3,7 +3,7 @@ FROM registry.cn-hangzhou.aliyuncs.com/xqbl-share/openjkd:ubunut1804-openjdk11.0
 COPY . /data/springboot-helloworld
 WORKDIR /data/springboot-helloworld
 
-RUN ["mvn", "clean", "install"]
+# RUN ["mvn", "clean", "install"]
 
 EXPOSE 8080
 
